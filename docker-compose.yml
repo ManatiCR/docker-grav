@@ -1,0 +1,16 @@
+version: "3"
+services:
+  php:
+    build: ./php
+    expose:
+      - "9000"
+    volumes:
+        - "./docroot:/var/www/html"
+  nginx:
+    build: ./nginx
+    ports:
+      - "8080:80"
+    links:
+      - php
+    volumes:
+        - "./docroot:/var/www/html"
