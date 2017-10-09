@@ -30,3 +30,4 @@ RUN docker-php-ext-install json \
     iconv \
     xml \
     gd
+COPY ./php.ini /usr/local/etc/php/conf.d/docker-php.ini
