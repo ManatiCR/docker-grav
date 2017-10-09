@@ -10,15 +10,15 @@ Set right permissions:
 
 ```
 chmod o+w docroot/user/config
-chmod o+w -R docroot/cache
-chmod o+w -R docroot/logs
-chmod o+w -R docroot/images
-chmod o+w -R docroot/assets
-chmod o+w -R docroot/user/data
-chmod o+w -R docroot/backup
-chmod o+w -R docroot/tmp
-chmod o+w -R docroot/user/accounts
-chmod o+w -R docroot/user/pages
+chmod -R o+w docroot/cache
+chmod -R o+w docroot/logs
+chmod -R o+w docroot/images
+chmod -R o+w docroot/assets
+chmod -R o+w docroot/user/data
+chmod -R o+w docroot/backup
+chmod -R o+w docroot/tmp
+chmod -R o+w docroot/user/accounts
+chmod -R o+w docroot/user/pages
 ```
 
 ## Build Environment
