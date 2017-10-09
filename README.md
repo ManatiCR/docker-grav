@@ -18,6 +18,7 @@ chmod o+w -R docroot/user/data
 chmod o+w -R docroot/backup
 chmod o+w -R docroot/tmp
 chmod o+w -R docroot/user/accounts
+chmod o+w -R docroot/user/pages
 ```
 
 ## Build Environment
